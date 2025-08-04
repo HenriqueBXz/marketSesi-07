@@ -1,2 +1,2 @@
 # marketSesi-07
-mercado de produtos com local storage🍆💧🔥🔥🔞🔞
+mercado de produtos local da ilha Aura
