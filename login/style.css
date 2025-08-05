@@ -4,3 +4,76 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background-image: url('./images/madara-uchiha-escanor-vegeta.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: auto;
+}
+
+.container{
+    position: relative;
+    background-color: rgba(156, 161, 161, 0.718);
+    width: 300px;
+    height: 400px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 22px 70px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.round{
+background-color: rgba(255, 255, 255, 0.563);
+width: 125px;
+height: 125px;
+border-radius: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 6px solid rgba(228, 228, 30, 0.371);
+position: absolute;
+top: -1%;
+left: 50%;
+box-shadow: rgb(255, 255, 255) 0px 22px 70px 4px;
+transform: translate(-50%, -50%);
+}
+
+.round i{
+    font-size: 56px;
+    color: rgba(135, 9, 173, 0.807);
+}
+
+.wrap-input-label{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    width: 80%;
+    position: relative;
+}
+
+.eye{
+    position: absolute;
+    right: 10px;
+    bottom: 7px;
+    opacity: 0.7;
+
+}
+
+.eye:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
