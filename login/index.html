@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
-    <script
-    src="https://code.jquery.com/jquery-3.7.1.js"
-    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      crossorigin="anonymous">
+        crossorigin="anonymous">
 </head>
 
 <body>
     <div class="container">
         <div class="round">
-            <i class="fa-solid fa-volcano logo"></i>
-        </div>
-        <div>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" placeholder="insira seu nome"> 
+            <img class="aura" src="./images/troll-face-poster.png" alt="">
         </div>
         <div class="wrap-input-label">
-            <label for="senha">senha</label> 
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="insira seu nome">
+        </div>
+        <div class="wrap-input-label">
+            <label for="senha">senha</label>
             <input type="text" id="senha" placeholder="insira sua senha">
             <div onclick="showPassoword()">
-                <img class="eye" src="./images/eye.png" alt="Olho" id="eye">
+                <img class="eye" src="./images/troll-face-poster.png" alt="Olho" id="eye">
             </div>
-
         </div>
+
         <p>esqueci minha senha</p>
         <button class="btn-login" onclick="login()">login</button>
     </div>
@@ -37,7 +36,8 @@
         <h3>Credenciais incorretas !!!!!!!</h3>
         <button onclick="fecharError()">🚺</button>
     </div>
-    <script src="script.js"></script>    
+    <script src="script.js"></script>
 
 </body>
+
 </html>
