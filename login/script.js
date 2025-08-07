@@ -3,7 +3,7 @@ function login(){
     var nome = $('#nome').val()
     var senha = $ ('#senha').val()
 
-    if(nome && senha && nome === "adimin" && senha == "admin"){
+    if(nome && senha && nome === "admin" && senha == "admin"){
 
         const user = {
             nome:nome,
@@ -12,11 +12,11 @@ function login(){
         };
 
         localStorage.setItem('usuario', JSON.stringify(user))
-        window.location.href = '../Loja/index.html'
+        window.location.href = '../loja/index.html'
     }else{
-        document.getElementById('errer-modal').style.display = 'none'
-        document.getElementById('nome').style.bodrBottom = '2px solid black'
-        document.getElementById('senha').style.boderBottom = '2px solid black'
+        document.getElementById('error-modal').style.display = 'flex'
+        document.getElementById('nome').style.bodrBottom = '3px solid black'
+        document.getElementById('senha').style.boderBottom = '3px solid black'
 
 
     }
@@ -25,9 +25,9 @@ function login(){
 
 function fecharError(){
 
-    document.getElementById('errer-modal').style.display = 'flex'
-    document.getElementById('nome').style.bodrBottom = '3px solid red'
-    document.getElementById('senha').style.boderBottom = '3px solid red'
+    document.getElementById('error-modal').style.display = 'none'
+    document.getElementById('nome').style.bodrBottom = '2px solid red'
+    document.getElementById('senha').style.boderBottom = '2px solid red'
 }
 
 function showPassoword(){
