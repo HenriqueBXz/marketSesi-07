@@ -2,49 +2,49 @@
     {
         "id": 1,
         "descrição": "bandeja de aura",
-        "imagem": "./images/madara.jfif",
+        "imagem": "../Dados/Images/madara.jfif",
         "preco": 100.0
     },
     {
         "id": 2,
         "descrição": "saco de aura",
-        "imagem": "./images/meruen.jfif",
+        "imagem": "../Dados/Images/madara.jfif",
         "preco": 100.0
     },
     {
         "id": 3,
         "descrição": "garrafa de aura",
-        "imagem": "./images/goku black.jfif",
+        "imagem": "../Dados/Images/goku black.jfif",
         "preco": 100.0
     },
     {
         "id": 4,
         "descrição": "pote de aura",
-        "imagem": "./images/goku black.jfif",
+        "imagem": "../Dados/Images/goku black.jfif",
         "preco": 100.0
     },
     {
         "id": 5,
         "descrição": "aura enlatada",
-        "imagem": "./images/goku black.jfif",
+        "imagem": "../Dados/Images/goku black.jfif",
         "preco": 100.0
     },
     {
         "id": 6,
         "descrição": "aura em conserva",
-        "imagem": "./images/goku black.jfif",
+        "imagem": "../Dados/Images/goku black.jfif",
         "preco": 100.0
     },
     {
         "id": 7,
         "descrição": "aura recheada",
-        "imagem": "./images/goku black.jfif",
+        "imagem": "../Dados/Images/goku black.jfif",
         "preco": 100.0
     },
     {
         "id": 8,
         "descrição": "aura desidratada",
-        "imagem": "./images/goku black.jfif",
+        "imagem": "../Dados/Images/goku black.jfif",
         "preco": 100.0
     }
 ]
