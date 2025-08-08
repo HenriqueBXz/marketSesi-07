@@ -46,5 +46,18 @@
         "descrição": "aura desidratada",
         "imagem": "../Dados/Images/goku black.jfif",
         "preco": 100.0
+    },
+    {
+        "id": 9,
+        "descrição": "aura+ego",
+        "imagem": "../Dados/Images/goku black.jfif",
+        "preco": 100.0
+    },
+    {
+        "id": 10,
+        "descrição": "rego",
+        "imagem": "../Dados/Images/goku black.jfif",
+        "preco": 100.0
     }
+
 ]
