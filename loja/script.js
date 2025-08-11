@@ -33,10 +33,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 card.className = 'card'
                 card.style.width = '18rem'
                 card.style.marginRight = '10px'
+                card.style.marginBottom = '10px'
 
                 const imagem = document.createElement('img')
                 imagem.src = produto.imagem
                 imagem.className = 'card-img-top'
+                imagem.style.height = '10rem'
+                imagem.style.width = 'fit-content'
+                imagem.style.alignSelf = 'center'
                 
                 const cardBody = document.createElement('div')
                 cardBody.className = 'card-body'
@@ -51,8 +55,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const btAdicionarAoCarrinho = document.createElement('a')
                 btAdicionarAoCarrinho.href = '#'
-                btAdicionarAoCarrinho.className = 'btn btn-primary btn-adicionar-ao-carrinho'
+                btAdicionarAoCarrinho.className = 'btn btn-outline-dark btn-sm btn-adicionar-ao-carrinho'
                 btAdicionarAoCarrinho.textContent = 'Adicionar ao carrinho'
+                btAdicionarAoCarrinho.style.color = "pink"
                 btAdicionarAoCarrinho.setAttribute('data-indice',index)
 
                 //criando os pais e filhos segundo o bootstrap
