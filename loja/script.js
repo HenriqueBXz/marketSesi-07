@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const cardText = document.createElement('p')
                 cardText.className = 'card-text'
-                cardText.textContent = 'Preço; $' + produto.preco.toFixed(2)
+                cardText.textContent = 'Preço: $' + produto.preco.toFixed(2)
 
                 const btAdicionarAoCarrinho = document.createElement('a')
                 btAdicionarAoCarrinho.href = '#'
@@ -73,4 +73,16 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
         }).catch((error) => console.error('Error ao carregar dados', error))
+
+
+        $('#produtos-container').on('click', '.btn-adicionar-ao-carrinho', function(){
+            const indexDoProduto= $(this).data("indice")
+            const produtoSelecionado = produtos[indexDoProduto]
+            let carrinho = JSON.parse(localStorage.getItem('carrinho')) || []
+
+            carrinho.push(produtoSelecionado)
+            localStorage.setItem("carrinho", JSON.stringify(carrinho))
+            alert("Produto adicionado com sucesso")
+
+        })
 });
