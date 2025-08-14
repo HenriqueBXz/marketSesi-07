@@ -55,9 +55,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const btAdicionarAoCarrinho = document.createElement('a')
                 btAdicionarAoCarrinho.href = '#'
-                btAdicionarAoCarrinho.className = 'btn btn-outline-dark btn-sm btn-adicionar-ao-carrinho'
+                btAdicionarAoCarrinho.className = 'btn btn-outline-light btn-sm btn-adicionar-ao-carrinho'
                 btAdicionarAoCarrinho.textContent = 'Adicionar ao carrinho'
-                btAdicionarAoCarrinho.style.color = "pink"
+                btAdicionarAoCarrinho.style.color = "light"
                 btAdicionarAoCarrinho.setAttribute('data-indice',index)
 
                 //criando os pais e filhos segundo o bootstrap

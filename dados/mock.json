@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "descricao": "bandeja de aura",
+        "descricao": "Madara",
         "imagem": "../Dados/Images/madara.jfif",
         "preco": 100.0
     },
     {
         "id": 2,
-        "descricao": "saco de aura",
-        "imagem": "../Dados/Images/madara.jfif",
+        "descricao": "Batman",
+        "imagem": "../Dados/Images/batman.jfif",
         "preco": 100.0
     },
     {
         "id": 3,
-        "descricao": "garrafa de aura",
-        "imagem": "../Dados/Images/goku black.jfif",
+        "descricao": "Doom slayer",
+        "imagem": "../Dados/Images/doom.jfif",
         "preco": 100.0
     },
     {
         "id": 4,
-        "descricao": "pote de aura",
-        "imagem": "../Dados/Images/goku black.jfif",
+        "descricao": "Escanor",
+        "imagem": "../Dados/Images/escanor.jfif",
         "preco": 100.0
     },
     {
         "id": 5,
-        "descricao": "aura enlatada",
-        "imagem": "../Dados/Images/goku black.jfif",
+        "descricao": "Goku black",
+        "imagem": "../Dados/Images/goku preto.jfif",
         "preco": 100.0
     },
     {
         "id": 6,
-        "descricao": "aura em conserva",
-        "imagem": "../Dados/Images/goku black.jfif",
+        "descricao": "Kratos",
+        "imagem": "../Dados/Images/kratos.jfif",
         "preco": 100.0
     },
     {
         "id": 7,
-        "descricao": "aura recheada",
-        "imagem": "../Dados/Images/goku black.jfif",
+        "descricao": "Makita",
+        "imagem": "../Dados/Images/makita.jfif",
         "preco": 100.0
     },
     {
         "id": 8,
-        "descricao": "aura desidratada",
-        "imagem": "../Dados/Images/goku black.jfif",
+        "descricao": "Master chief",
+        "imagem": "../Dados/Images/master.jfif",
         "preco": 100.0
     },
     {
         "id": 9,
-        "descricao": "aura+ego",
-        "imagem": "../Dados/Images/goku black.jfif",
+        "descricao": "Budda",
+        "imagem": "../Dados/Images/buda.jfif",
         "preco": 100.0
     },
     {
         "id": 10,
-        "descricao": "rego",
-        "imagem": "../Dados/Images/goku black.jfif",
+        "descricao": "Monster",
+        "imagem": "../Dados/Images/monster.jfif",
         "preco": 100.0
     }
 
