@@ -3,61 +3,61 @@
         "id": 1,
         "descricao": "Madara",
         "imagem": "../Dados/Images/madara.jfif",
-        "preco": 100.0
+        "preco": 1000000
     },
     {
         "id": 2,
         "descricao": "Batman",
         "imagem": "../Dados/Images/batman.jfif",
-        "preco": 100.0
+        "preco": 55000000
     },
     {
         "id": 3,
         "descricao": "Doom slayer",
         "imagem": "../Dados/Images/doom.jfif",
-        "preco": 100.0
+        "preco": 40000000
     },
     {
         "id": 4,
         "descricao": "Escanor",
         "imagem": "../Dados/Images/escanor.jfif",
-        "preco": 100.0
+        "preco": 2000000
     },
     {
         "id": 5,
         "descricao": "Goku black",
         "imagem": "../Dados/Images/goku preto.jfif",
-        "preco": 100.0
+        "preco": 45000000
     },
     {
         "id": 6,
         "descricao": "Kratos",
         "imagem": "../Dados/Images/kratos.jfif",
-        "preco": 100.0
+        "preco": 50000000
     },
     {
         "id": 7,
         "descricao": "Makita",
         "imagem": "../Dados/Images/makita.jfif",
-        "preco": 100.0
+        "preco": 38000000
     },
     {
         "id": 8,
         "descricao": "Master chief",
         "imagem": "../Dados/Images/master.jfif",
-        "preco": 100.0
+        "preco": 23000000
     },
     {
         "id": 9,
         "descricao": "Budda",
         "imagem": "../Dados/Images/buda.jfif",
-        "preco": 100.0
+        "preco": 20000000
     },
     {
         "id": 10,
-        "descricao": "Monster",
+        "descricao": "Monster branco",
         "imagem": "../Dados/Images/monster.jfif",
-        "preco": 100.0
+        "preco": 30000000
     }
 
 ]
